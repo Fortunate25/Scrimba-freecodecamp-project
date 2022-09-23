@@ -1,0 +1,444 @@
+body{
+    background-color: white;
+    color:black;
+    font-size:medium;
+    font-weight: lighter;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.quote {
+    font-family: clawless;
+    text-align: center;
+    padding-top: 5px;
+
+}
+.quote0 {
+    font-family: clawless;
+    text-align: center;
+    height: 200px;
+    color: #f8f9fa;
+    text-shadow: 0 0 10px pink;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6-Y0Wr3RtzuKcBRXELL_2bYW-0zH8TjqV5w&usqp=CAU");
+}
+.quote1 {
+    font-family: clawless;
+    text-align: center;
+    margin-left: 200px;
+
+}
+
+.foodie{
+    background-image: url("https://media.giphy.com/media/eSQKNSmg07dHq/giphy.gif");
+    height: 200px;
+   background-size: 500px;
+   width: auto;
+}
+
+.google{
+    display: block;
+    align-items:center;
+    width:300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    /* margin-left: 350px; */
+    margin-bottom: 80px;
+}
+
+.inputted {
+ 
+    width:300px;
+    height: 26px;
+    padding-top: 15px;
+    padding-bottom:10px;
+    padding-left: 30px;
+    padding-right: 60px;
+    border : 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+
+.g-img{
+    margin-left: 35px;
+    height: 120px;
+
+}
+
+.searchbtn {
+    display: inline;
+    margin-left:50px;
+    margin-right: auto;
+    border: 1px #f8f9fa;
+    border-radius: 6px;
+    /* height:10px; */
+    padding:10px;
+    font-weight: bold;
+}
+.searchbnn {
+    /* display: inline;
+    margin-left: auto;
+    margin-right: auto; */
+    border: 1px #f8f9fa;
+    border-radius: 6px;
+    /* height:10px; */
+    padding:10px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.luckybtn{
+    
+}
+
+input {
+    width:320px;
+    height: 15px;
+    display: block;
+}
+
+/* img{
+    width:300px;
+} */
+.flag{
+    background-color: white;
+    margin:0px 0px;
+}
+
+
+.red{
+    background-color: red;
+    height: 100px;
+
+}
+
+.blue{
+background-color: blue;
+height: 100px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.green{
+    background-color: green;
+    height: 100px;
+margin-top: 0px;
+}
+
+
+
+.bitcoin{
+    background: lightcyan;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    border: 2px solid #222222;
+    border-radius: 20px;
+
+}
+
+.follow{
+    border: 2px solid #cfd9de;
+    color: #0f1419;
+    border-radius:25px;
+    align-items: center;
+    padding:8px;
+    padding-bottom: 8px;
+    width:100px;
+    height:35px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    background-color: #ddebf8;
+    border: 1px dotted blue;
+    padding: 20px;
+    /* margin: 50px; */
+    width: 520px;
+    height: 200px;
+    border-bottom: 7px solid #d8cefe;
+   margin: 0 auto;
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFyKWwv3NmdyPMfei5EoM5It7umDOASgRBxUNgGnTIxA&s); */
+}
+
+.profile-img{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.name{
+    display: block;
+    margin-left: 20px;
+    text-align:center;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #2b2839;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+
+}
+
+.class{
+    /* border: 1px dotted blue; */
+    padding: 20px;
+    /* height: 200px; */
+    justify-content: space-around;
+   
+}
+
+.space{
+    text-align: center;
+    background-image: url("https://media3.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif?cid=ecf05e47gbn8ue06vsjbk86ipsaokoqu5n25u3o29gpcie84&rid=giphy.gif&ct=g");
+    background-size: cover;
+    height: 220px;
+    color: #87CEEB;
+    padding-top: 30px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.apply-space{
+    border-radius: 4px;
+    padding: 10px 13px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    border: none;
+    color: #87CEEB;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: clawless;
+    src: url("clawless.ttf");
+}
+
+.fort{
+    font-family: clawless, sans-serif;
+    text-align: center;
+}
+
+.explore{
+    /* text-decoration: underline; */
+    border-bottom: 5px solid white;
+    text-shadow: 0 0 4px white;
+}
+
+#spacex{
+    font-weight: lighter;
+    /* font-family: 'Orbitron', sans-serif; */
+    color: rgb(76, 61, 243);
+    width: 100px;
+}
+
+.hero{
+    text-align: center;
+}
+
+#netflix{
+    text-align: center;
+    color: white;
+    background-color: #e10a0a;
+    height:200px;
+    font-family: goodtimes;
+    font-size: 130px ;
+    margin: 0 auto;
+    text-shadow: 5px -6px black;
+}
+
+@font-face {
+    font-family: goodtimes;
+    src: url(good\ times\ rg.otf);
+}
+
+.birthday{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    /* background-color: #a2d2ff; */
+    background: linear-gradient(blue, pink);
+    color: #ffffff;
+    text-shadow: 0 0 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sats{
+    width: 90px;
+    height:100px;
+    border-radius: 50%;
+    border: 4px solid #efb0c9;
+
+}
+
+#bday1{
+    background-color: #efb0c9;
+    padding: 4px 6px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+#bday2{
+    background-color: #efb0c9;
+    padding: 4px 6px;
+    margin-top:0px;
+
+}
+
+.tools{
+
+    border: 8px solid green;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: start;
+    height:300px;
+    padding-top: 10px;
+
+}
+
+.happy{
+    margin-bottom: 5px;
+}
+
+.hover{
+    margin-top: 0px;
+
+}
+.gift{
+    border: 7px solid white;
+    border-radius: 18px;
+    width:400px;
+    height: 400px;
+    background-size: cover;
+    background-image: url("images/festive-birthday-christmas-gift-box-with-bow-ribbon-isolated-white-background_599062-24.jpg");
+}
+.gifty{
+    border: 7px solid white;
+    border-radius: 18px;
+    width:400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10px;
+    background-image: url("images/festive-birthday-christmas-gift-box-with-bow-ribbon-isolated-white-background_599062-24.jpg");
+}
+.gifty11{
+    border: 7px solid white;
+    border-radius: 18px;
+    width:400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10px;
+    background-image: url("images/festive-birthday-christmas-gift-box-with-bow-ribbon-isolated-white-background_599062-24.jpg");
+}
+.gifty22{
+    border: 7px solid white;
+    border-radius: 18px;
+    width:400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10px;
+    background-image: url("images/festive-birthday-christmas-gift-box-with-bow-ribbon-isolated-white-background_599062-24.jpg");
+}
+.gifty22{
+    border: 7px solid white;
+    border-radius: 18px;
+    width:400px;
+    height: 400px;
+    background-size: cover;
+    margin-left: 10px;
+    background-image: url("images/festive-birthday-christmas-gift-box-with-bow-ribbon-isolated-white-background_599062-24.jpg");
+}
+.gifty222{
+    border: 7px solid white;
+    border-radius: 18px;
+    width:500px;
+    height: 200px;
+    background-size: cover;
+    margin-left: 10px;
+    background-image: url("images/festive-birthday-christmas-gift-box-with-bow-ribbon-isolated-white-background_599062-24.jpg");
+}
+
+
+.gift-sect {
+    text-align: center;
+    margin-left: 50px;
+}
+.gifty1 {
+    text-align: center;
+    margin-left: 0px;
+}
+
+.gifty2 {
+    text-align: center;
+    margin-left: -45px;
+}
+
+.gift:hover {
+    background-image: url("images/surprise\ gify.gif");
+    background-size: cover;
+    width:400px;
+    height: 400px;
+
+}
+
+.gifty:hover {
+    background-image: url("images/Room-surprise-giphy.gif");
+    background-size: cover;
+    width:400px;
+    height: 400px;
+
+}
+
+.gifty11:hover {
+    background-image: url("images/genius.gif");
+    background-size: cover;
+    width:400px;
+    height: 400px;
+
+}
+
+
+.gifty22:hover {
+    background-image: url("images/james\ bond\ gif.gif");
+    background-size: cover;
+    width:400px;
+    height: 400px;
+
+}
+
+.gifty222:hover {
+    background-image: url("images/cheers.gif");
+    background-size: cover;
+    width:500px;
+    height: 200px;
+
+}
+
+.pp {
+    background-color: green;
+    border: 2px solid green;
+    padding: 20px;
+    width: 25px;
+    margin-left: 5px;
+    margin-top: -9px;
+}
+
+.footer{
+    margin-top: 50px;
+    font-style: italic;
+}
+.aaa{
+    color:white;
+}
